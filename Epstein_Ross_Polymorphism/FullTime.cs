@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Epstein_Ross_Polymorphism
 {
-    class FullTime
+    class FullTime : Hourly
     {
+        public FullTime(string name, string address, decimal payPerHour, decimal hoursPerWeek = 40) : base (name, address, payPerHour, hoursPerWeek)
+        { 
+        
+        }
     }
 }

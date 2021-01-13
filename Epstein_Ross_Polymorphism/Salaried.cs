@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Epstein_Ross_Polymorphism
 {
-    class Salaried
+    class Salaried : Employee
     {
+        private decimal salary { get; }
+
+        public Salaried(string name, string address, decimal salary) : base(name, address)
+        { 
+        
+        }
+
     }
 }
