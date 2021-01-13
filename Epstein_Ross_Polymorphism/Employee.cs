@@ -13,7 +13,7 @@ namespace Epstein_Ross_Polymorphism
 
         public virtual double CalculatePay() 
         {
-            return;
+            return 00.0;
         }
 
     }
