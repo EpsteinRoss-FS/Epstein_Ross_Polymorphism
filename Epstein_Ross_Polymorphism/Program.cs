@@ -6,7 +6,7 @@ namespace Epstein_Ross_Polymorphism
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Application employeeApp = new Application();
         }
     }
 }

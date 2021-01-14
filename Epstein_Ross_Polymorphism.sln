@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epstein_Ross_Polymorphism", "Epstein_Ross_Polymorphism\Epstein_Ross_Polymorphism.csproj", "{7A839B96-081C-4CA4-876F-3D2D4F085540}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F45A7B3-A096-4B4C-A643-026B2CA88000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
