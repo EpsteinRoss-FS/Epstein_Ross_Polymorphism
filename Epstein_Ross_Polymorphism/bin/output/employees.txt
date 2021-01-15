@@ -1,0 +1,3 @@
+Billy Jenkins|123 Wharf Road|25|40|00|00
+Randy Thompson|324 Chestnut Ave|10|20|00|00
+Chad McKarencut|900 East Mansion House|00|40|500000|100000
