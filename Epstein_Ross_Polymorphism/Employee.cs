@@ -6,8 +6,8 @@ namespace Epstein_Ross_Polymorphism
 {
     class Employee
     {
-        protected static string _name;
-        protected static string _address;
+        protected static string _name { get; set; }
+        protected static string _address { get; set; }
 
         public Employee(string name, string address)
         {

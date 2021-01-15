@@ -6,10 +6,11 @@ namespace Epstein_Ross_Polymorphism
 {
     class Salaried : Employee
     {
-        private decimal salary { get; }
+        protected decimal _salary { get; }
 
         public Salaried(string name, string address, decimal salary) : base(name, address)
-        { 
+        {
+            _salary = salary;
         
         }
 
