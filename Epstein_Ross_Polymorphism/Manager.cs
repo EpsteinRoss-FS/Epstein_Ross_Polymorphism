@@ -14,10 +14,7 @@ namespace Epstein_Ross_Polymorphism
 
         public Manager(string name, string address, decimal salary, decimal bonus) : base(name, address, salary)
         {
-            
-            _name = Employee._name;
             _bonus = bonus;
-        
         }
 
         public override double CalculatePay()

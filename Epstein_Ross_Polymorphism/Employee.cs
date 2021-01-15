@@ -6,13 +6,24 @@ namespace Epstein_Ross_Polymorphism
 {
     class Employee
     {
-        protected static string _name { get; set; }
-        protected static string _address { get; set; }
+        protected string _name;
+        protected string _address;
+        public string Name 
+        {
+            get { return _name; }
+//            set { _name = value; }
+        }
+
+        public string Address
+        {
+            get { return _address; }
+        }
 
         public Employee(string name, string address)
         {
             _name = name;
             _address = address;
+            
         }
 
         public virtual double CalculatePay() 
