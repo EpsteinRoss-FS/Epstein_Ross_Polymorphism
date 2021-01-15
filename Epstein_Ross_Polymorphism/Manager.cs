@@ -17,9 +17,13 @@ namespace Epstein_Ross_Polymorphism
             _bonus = bonus;
         }
 
-        public override double CalculatePay()
+        public override double CalculatePay(decimal salary, decimal bonus)
         {
-            return base.CalculatePay();
+            
+            decimal calcPayDec = salary + bonus;
+            double calculatedPay = decimal.ToDouble(calcPayDec);
+
+            return calculatedPay;
         }
     }
 }

@@ -26,10 +26,16 @@ namespace Epstein_Ross_Polymorphism
             
         }
 
-        public virtual double CalculatePay() 
+        public virtual double CalculatePay(decimal hourlyPay, decimal hoursPerWeek) 
         {
-            return 00.0;
+
+            decimal calcPayDec = hourlyPay * hoursPerWeek;
+            double calculatedPay = decimal.ToDouble(calcPayDec);
+
+            return calculatedPay;
         } 
+
+
 
     }
 }

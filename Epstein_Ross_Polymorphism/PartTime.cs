@@ -18,10 +18,5 @@ namespace Epstein_Ross_Polymorphism
             _hoursPerWeek = hoursPerWeek;
         }
 
-        public override double CalculatePay()
-        {
-            return base.CalculatePay();
-        }
-
     }
 }

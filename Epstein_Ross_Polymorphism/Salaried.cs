@@ -17,12 +17,5 @@ namespace Epstein_Ross_Polymorphism
             _salary = salary;
         
         }
-
-        public override double CalculatePay()
-        {
-            return base.CalculatePay();
-        }
-
-
     }
 }
