@@ -1,4 +1,10 @@
-﻿using System;
+﻿/** 
+ * Ross Epstein
+ * January 15th, 2021
+ * Week 2 - Polymorphism
+ * **/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
