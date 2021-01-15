@@ -12,7 +12,14 @@ namespace Epstein_Ross_Polymorphism
 
         public Manager(string name, string address, decimal salary) : base(name, address, salary)
         { 
+
+         
         
+        }
+
+        public override double CalculatePay()
+        {
+            return base.CalculatePay();
         }
     }
 }

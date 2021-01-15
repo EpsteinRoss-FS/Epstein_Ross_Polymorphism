@@ -13,5 +13,11 @@ namespace Epstein_Ross_Polymorphism
         
         }
 
+        public override double CalculatePay()
+        {
+            return base.CalculatePay();
+        }
+
+
     }
 }
